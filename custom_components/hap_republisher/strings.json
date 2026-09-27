@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Republish a HomeKit accessory",
+        "description": "IP address of a HomeKit accessory that only answers direct mDNS queries (for example a Hunter SIMPLEconnect fan). Give it a fixed IP (DHCP reservation).",
+        "data": {
+          "host": "IP address"
+        }
+      }
+    },
+    "error": {
+      "no_answer": "The accessory did not answer a HomeKit (_hap._tcp) mDNS query."
+    },
+    "abort": {
+      "already_configured": "This accessory is already being republished."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval": "Poll and re-announce interval (seconds)"
+        }
+      }
+    }
+  }
+}

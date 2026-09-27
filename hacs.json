@@ -1,0 +1,5 @@
+{
+  "name": "HomeKit Accessory Republisher",
+  "render_readme": true,
+  "homeassistant": "2025.9.4"
+}

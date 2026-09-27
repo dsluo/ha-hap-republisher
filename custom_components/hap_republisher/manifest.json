@@ -1,0 +1,12 @@
+{
+  "domain": "hap_republisher",
+  "name": "HomeKit Accessory Republisher",
+  "codeowners": ["@dsluo"],
+  "config_flow": true,
+  "dependencies": ["zeroconf"],
+  "documentation": "https://github.com/dsluo/ha-hap-republisher",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}
